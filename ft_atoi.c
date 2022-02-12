@@ -1,7 +1,9 @@
+#include "libft.h"
+
 int	ft_atoi(const char *str)
 {
-	long	i;
-	long	nbr;
+	uint32_t	i;
+	uint32_t	nbr;
 	int		sign;
 
 	i = 0;
